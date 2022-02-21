@@ -34,7 +34,44 @@
 // } else {
 //     console.log('Невірно')};
 // (a!=0) ? 'Вірно' : 'Невірно';
+// let dayOfWeeks = +prompt('Введіть день тижня')
+// switch (dayOfWeeks) {
+//     case 1:
+//         console.log('Понеділок');
+//         break;
+//     case 2:
+//         console.log('Вівторок');
+//         break;
+//     case 3:
+//         console.log('Середа');
+//         break;
+//     case 4:
+//         console.log('Четвер');
+//         break;
+//     case 5:
+//         console.log('Пятниця');
+//         break;
+//     case 6:
+//         console.log('Субота');
+//         break;
+//     case 7:
+//         console.log('Неділя');
+//         break;
+//     default:
+//         console.log('Щось не то');
+// }
 
+// let year = +prompt('Скільки днів у цьому році?');
+// if (year % 5 === 0){
+//     console.log('рік звичайний')}
+// else{
+//     console.log('рік високосний')}
+// (+prompt('введіть ксть днів у році') % 5 ===0)? console.log('рік звичайний') :
+//     console.log('Високосний')
 
-
-
+let oficialName = prompt('яка офіційна назва js?');
+if (oficialName === 'ecmascript') {
+    alert('чудово');
+} else {
+    alert('невірно, офіційна назва - ECMAscript')
+}
